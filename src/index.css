@@ -6,7 +6,7 @@ Variables
 ==================
 */
 :root {
-  --ff-primary: Helvetica,sans-serif;
+  --ff-primary: Arial,sans-serif;
   --clr-white: #ffffff;
   --clr-black: #191919;
   --clr-black-2: #0B0B0B;
@@ -18,7 +18,7 @@ Variables
   --clr-ter: #1FE1E9;
   --clr-purple: #5E33D1;
   --clr-yellow: #FFB33F;
-  --radius: 0.5rem;
+  --radius: 50%;
   --section-padding: 50px;
 }
 * {
@@ -29,7 +29,7 @@ Variables
 body {
   font-family: var(--ff-primary);
   background-color: var(--clr-white);
-  color: var(--clr-black);
+  color: var(--clr-white);
   line-height: 1.5;
 }
 a {
@@ -56,15 +56,19 @@ h2 {
 h3 {
   font-size: 1.4rem;
 }
+
 @media screen and (min-width: 1025px) {
   h1 {
-    font-size: 4.625rem;
+    font-size: 3rem;
   }
   h2 {
-    font-size: 4.063rem;
+    font-size: 2rem;
   }
   h3 {
-    font-size: 3.188rem;
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 0.875rem;
   }
 }
 li {
@@ -73,7 +77,7 @@ li {
 /* Override default styles */
 a,
 a:hover {
-  color: black;
+  color: white;
 }
 ul {
   list-style-type: none;

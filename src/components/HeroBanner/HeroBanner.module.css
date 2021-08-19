@@ -1,0 +1,13 @@
+.heroBanner{
+  margin-top: 12rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subHeading{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+
+  width: 50%;
+}

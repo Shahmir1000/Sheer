@@ -1,0 +1,179 @@
+.title{
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 4.625rem;
+  font-weight: bold;
+  letter-spacing: 0.4625rem;
+  color: #FFFFFF;
+
+}
+.container{
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricingContainer {
+  height: 118.125rem;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #191919;
+  color: #ffffff;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.pricingDescription{
+  text-align: left;
+  font-size: 3.1875rem;
+  letter-spacing: 0.31875rem;
+  color: #FFFFFF;
+  margin-top: 9.75rem;
+}
+.pricingTypes{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+}
+.pricingTypes div{
+  display: inline-block;
+}
+.pricingTypes hr{
+  width: 8.8125rem;
+  margin-left: 0;
+}
+.pricingTypes ul{
+  padding-top: 2.625rem;
+  padding-bottom: 2.375rem;
+}
+.pricingTypes li{
+  color: #FFFFFF;
+  font-size:2.9375rem;
+  list-style-type: "\266A";
+  list-style-position: outside;
+  padding-left: 1.195rem;
+}
+.pricingTypes li:not(:last-child){
+  margin-bottom: 15px;
+}
+.pricingTypes button{
+  border: none;
+  border-radius: 4.9375rem;
+  padding: 1.75rem 7.1875rem;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.pricingTypeTitle{
+  text-transform: uppercase;
+  font-size: 2.625rem;
+  margin-top: 12.75rem;
+  margin-bottom: 2.625rem;
+}
+.pricingTypeTitle h1{
+ font-size: 8.375rem;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+.pricingTypeTitle h2{
+  margin: 1.25, auto;
+}
+.basic{
+  color: #D24848;
+}
+.basic hr, .basic button{
+  background-color: #D24848;
+  border-color: #D24848;
+}
+.advanced{
+  color: #FFB33F;
+}
+.advanced hr, .advanced button{
+  background-color: #FFB33F;
+  border-color: #FFB33F;
+}
+.pro{
+  color: #1FE1E9;
+}
+.pro hr, .pro button{
+  background-color: #1FE1E9;
+  border-color: #1FE1E9;
+}
+
+/* Perks section */
+
+.perksContainer{
+  background-color: #D34848;
+  width: 100%;
+  height: 60.4375rem;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.perkTitle{
+  margin-top: 6.1875rem;
+  margin-bottom: 5.25rem;
+  letter-spacing: 0.4625rem;
+}
+
+.textContainer{
+ display: flex;
+ justify-content: space-between;
+ align-content: center;
+ margin-bottom: 9.875rem;
+}
+.perkText{
+  margin-right: 8.375rem;
+}
+.perkText hr{
+  width: 6.5625rem;
+  margin-left: 0;
+}
+.perkText h3{
+  color: #FFFFFF;
+  font-size: 3.1875rem;
+  letter-spacing: 0.31875rem;
+}
+.perkText p{
+  color: #0B0B0B;
+  font-size: 2.1875rem;
+  letter-spacing: 0.21875rem;
+}
+
+/* Footer section */
+
+footer{
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  background-color: #5E33D1;
+  height: 33.625rem;
+  color: #FFFFFF;
+  padding-bottom: 5.375rem;
+}
+.email{
+  font-size: 2.1875rem;
+  padding-top: 11.3125rem;
+}
+.email i{
+  padding-right: 1.625rem;
+  letter-spacing: 0.21875rem;
+}
+footer h4{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  padding-top: 6.25rem;
+}
+
+footer h6{
+  font-size: 1.75rem;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.15rem;
+  margin-top: 2.8125rem;
+}
+

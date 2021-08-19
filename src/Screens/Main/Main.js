@@ -1,7 +1,7 @@
 import styles from "./Main.module.css";
 // Components
-import HeroBanner from "./components/HeroBanner/HeroBanner";
-import Navbar from "./components/Navbar/Navbar";
+import HeroBanner from "../../components/HeroBanner/HeroBanner";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Main = () => {
   return (
@@ -12,7 +12,11 @@ const Main = () => {
           <HeroBanner />
         </div>
       </header>
-      <main></main>
+      <main>
+        <section className={[styles.container, styles.sound].join(' ')}>
+
+        </section>
+      </main>
       <footer>footer</footer>
     </div>
   );
