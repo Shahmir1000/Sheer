@@ -1,0 +1,82 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"); */
+
+/*
+==================
+Variables
+==================
+*/
+:root {
+  --ff-primary: Helvetica,sans-serif;
+  --clr-white: #ffffff;
+  --clr-black: #191919;
+  --clr-black-2: #0B0B0B;
+  --clr-black-3: #000000;
+  --clr-gray-2: #00000029;
+  --clr-gray: #0000005C;
+  --clr-red: #D34848;
+  --clr-red-2: #D1346E;
+  --clr-ter: #1FE1E9;
+  --clr-purple: #5E33D1;
+  --clr-yellow: #FFB33F;
+  --radius: 0.5rem;
+  --section-padding: 50px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+  line-height: 1.5;
+}
+a {
+  text-decoration: none !important;
+}
+img {
+  width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1;
+  font-weight: 400;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 1025px) {
+  h1 {
+    font-size: 4.625rem;
+  }
+  h2 {
+    font-size: 4.063rem;
+  }
+  h3 {
+    font-size: 3.188rem;
+  }
+}
+li {
+  display: inline-block;
+}
+/* Override default styles */
+a,
+a:hover {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  color: black;
+  margin: 0;
+}
